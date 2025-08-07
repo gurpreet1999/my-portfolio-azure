@@ -25,7 +25,8 @@ stages:
         containerRegistry: 'my-acr-connection'      
         repository: $(imageName)
         command: buildAndPush
-        Dockerfile: '**/Dockerfile'
+        Dockerfile: 'React-Portfolio/.devcontainer/Dockerfile'
+
         tags: |
           $(imageTag)
           $(Build.BuildId)
