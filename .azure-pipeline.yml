@@ -4,7 +4,7 @@ trigger:
       - main
 
 variables:
-  imageName: 'myportfolio'         
+  imageName: 'reactportfolioimage'         
   imageTag: 'latest'                       
 
 stages:
