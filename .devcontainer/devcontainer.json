@@ -1,0 +1,13 @@
+{
+ "name":"my-project",
+ "build":{
+    "dockerfile": "Dockerfile"
+ },
+"appPort": 3000,
+"workspaceFolder": "/app",
+"postCreateCommand": "npm install",
+"mounts": [
+"source=${localWorkspaceFolder}, target=/app , type=bind"
+],
+"forwardPorts": [3000]
+}
