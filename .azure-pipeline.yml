@@ -6,7 +6,7 @@ trigger:
 variables:
   imageName: 'reactportfolioimage'         
   imageTag: 'latest'                       
-
+#okkkkk
 stages:
 - stage: BuildAndPush
   displayName: 'Build and Push to ACR'
